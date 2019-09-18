@@ -10,11 +10,11 @@ p {
   }
 
 a {
-    color: rgb(6, 150, 177);
+    color: rgb(197, 78, 75);
 }
 
 a:hover, a:active, a:focus, a:visited {
-    color: rgb(6, 150, 177);
+    color: rgb(197, 78, 75);
     text-decoration: none;
 }
 
