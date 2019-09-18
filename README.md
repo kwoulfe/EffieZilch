@@ -1,3 +1,3 @@
-## Effie Zilch and the House Band
+## Effie Zilch (and the houseband)
 
 Official Website
