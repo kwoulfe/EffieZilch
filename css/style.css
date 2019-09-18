@@ -20,16 +20,49 @@ a:hover, a:active, a:focus, a:visited {
   text-align: center;
 }
 
+.album {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .album {
+    font-size: 2em;
+    margin: 75px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .album {
+    font-size: 1.25em;
+    margin: 50px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .album {
+    font-size: 1em;
+    margin: 50px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-auto {
+    padding: 50px 0 0 0;
+  }
+}
+
 .main {
     font-size: 3em;
-    margin: 200px 0 50px 0;
+    margin: 100px 0 50px 0;
     text-align: center;
 }
 
 @media screen and (max-width: 768px) {
     .main {
       font-size: 2em;
-      margin: 125px 0 30px 0;
+      margin: 50px 0 30px 0;
     }
   }
 
@@ -48,7 +81,25 @@ a:hover, a:active, a:focus, a:visited {
   }
 
   .video {
-    padding: 20px 10px 100px 10px
+    padding: 100px 10px 20px 10px
+  }
+
+  @media screen and (max-width: 768px) {
+    .video {
+      padding: 50px 10px 20px 10px
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .video {
+      padding: 0 10px 0 10px
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .video {
+      padding: 0 10px 0 10px
+    }
   }
 
   #video {
