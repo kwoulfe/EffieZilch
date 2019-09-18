@@ -1,10 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
+    background: black;
   }
 
 p {
     font-family: 'Calligraffitti', cursive;
+    color: white;
   }
 
 a {
