@@ -125,8 +125,8 @@ a:hover, a:active, a:focus, a:visited {
     font-size: 3em;
   }
 
-  .footer i {
-    padding: 0 10px 0 10px
+  .footer img {
+    padding: 5px 0 5px 0;
   }
 
   @media screen and (max-width: 768px) {
