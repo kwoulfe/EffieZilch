@@ -46,60 +46,64 @@
         </br>
 
         <div class="container">
-            <!-- replace with your endoint URL -->
-            <form action="https://formspree.io/kevinpwoulfe@gmail.com" method="POST">
-                <div class="hpot">
-                    <label>Leave this field empty:
-                        <input name="_gotcha">
-                    </label>
-                </div>
-
-                <br>
-
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white">
-                                <i class="fas fa-user"></i>&nbsp</span>
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <!-- replace with your endoint URL -->
+                    <form action="https://formspree.io/kevinpwoulfe@gmail.com" method="POST">
+                        <div class="hpot">
+                            <label>Leave this field empty:
+                                <input name="_gotcha">
+                            </label>
                         </div>
-                        <input name="name" type="text" placeholder="Name" class="form-control border-left-0" required />
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col">
+                        <br>
+
                         <div class="form-group">
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text bg-white">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
+                                        <i class="fas fa-user"></i>&nbsp</span>
                                 </div>
-                                <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required />
+                                <input name="name" type="text" placeholder="Name" class="form-control border-left-0" required />
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text bg-white">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                        <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text bg-white">
+                                                <i class="fas fa-phone"></i>
+                                            </span>
+                                        </div>
+                                        <input name="phone" type="tel" placeholder="Phone" class="form-control border-left-0" required />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text bg-white">
-                                        <i class="fas fa-phone"></i>
-                                    </span>
-                                </div>
-                                <input name="phone" type="tel" placeholder="Phone" class="form-control border-left-0" required />
-                            </div>
+                            <textarea name="message" class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
                         </div>
-                    </div>
+                        <button type="submit" class="btn" id="send-button">
+                            <i class="fa fa-paper-plane"></i>
+                            Send
+                        </button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
-                </div>
-                <button type="submit" class="btn" id="send-button">
-                    <i class="fa fa-paper-plane"></i>
-                    Send
-                </button>
-            </form>
+            </div>
         </div>
     </section>
 
