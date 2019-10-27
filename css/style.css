@@ -242,6 +242,8 @@ a:hover, a:active, a:focus, a:visited {
 
   .form-control {
     border-radius: 0;
+    font-family: 'Calligraffitti', cursive;
+    background-clip: unset;
   }
 
   .input-group-text {
@@ -257,4 +259,5 @@ a:hover, a:active, a:focus, a:visited {
     color: rgba(0, 8, 46, 0.699);
     border: 0;
     border-radius: 0;
+    font-family: 'Calligraffitti', cursive;
   }
