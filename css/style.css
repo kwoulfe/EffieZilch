@@ -190,6 +190,7 @@ a:hover, a:active, a:focus, a:visited {
 
   .footer img {
     padding: 5px 0 5px 0;
+    max-width: 120px;
   }
 
   @media screen and (max-width: 768px) {
