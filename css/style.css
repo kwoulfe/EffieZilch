@@ -229,11 +229,16 @@ a:hover, a:active, a:focus, a:visited {
 
   /* Contact Page */
 
+  .mainContent {
+    position: relative;
+    top: 7em;
+  }
+
   .contact {
     background-image: url('images/evanneSteve.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     /* width: 100%;
     height: 0;
     padding-top: 100%;
