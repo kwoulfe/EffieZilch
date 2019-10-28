@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -224,17 +229,18 @@ a:hover, a:active, a:focus, a:visited {
 
   /* Contact Page */
 
-  /* .contact {
-    background-image: url('images/contactCover.JPG');
-    background-size: 100% auto;
+  .contact {
+    background-image: url('images/evanneSteve.JPG');
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    background-position: center center;
+    /* width: 100%;
     height: 0;
     padding-top: 100%;
     background-position: center top;
     top:0;
-    left:0;
-  } */
+    left:0; */
+  }
 
   form {
     text-align: center;
@@ -242,7 +248,7 @@ a:hover, a:active, a:focus, a:visited {
 
   .form-control {
     border-radius: 0;
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Londrina Shadow', cursive;
     background-clip: unset;
   }
 
@@ -259,5 +265,5 @@ a:hover, a:active, a:focus, a:visited {
     color: rgba(0, 8, 46, 0.699);
     border: 0;
     border-radius: 0;
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Londrina Shadow', cursive;
   }
