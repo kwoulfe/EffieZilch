@@ -28,6 +28,10 @@ a:hover, a:active, a:focus, a:visited {
     transition: all 0.3s;
 }
 
+.hidden {
+  display: none;
+}
+
 .banner {
   text-align: center;
 }
