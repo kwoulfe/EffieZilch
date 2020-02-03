@@ -204,6 +204,12 @@ a:hover, a:active, a:focus, a:visited {
 
   /* Gallery Page */
 
+  .back-button {
+    color: white;
+    margin-top: .5em;
+    font-size: 1.75em;
+  }
+
   .galleryContent {
     position: relative;
     /* top: 1em; */
