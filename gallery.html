@@ -18,14 +18,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Calligraffitti&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="css/images/stove.jpg">
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/main.js">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
     <script src="https://kit.fontawesome.com/2489288bd2.js" crossorigin="anonymous"></script>
+
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="js/main.js"> -->
+
+
 
     <title>Effie Zilch and the Houseband | Gallery</title>
     <meta name="description" content="Gallery images of Steve Wyreman and Evanne Barcenas of Effie Zilch and the Houseband">
@@ -33,77 +39,105 @@
 
 <body>
 
-    <!-- <div class="container-fluid">
-        <a href="https://effiezilch.com">
-            <i class="far fa-arrow-alt-circle-left back-button" aria-hidden="true"></i>
-        </a>
-    </div> -->
+    <div class="wrapper">
+        <nav id="sidebar">
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCrj9TRo085oBZ0ipBD4urBA" target="_blank">Watch</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/effiezilch/?hl=en" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/album/4IViWcItzeHlRzXEsjndS3" target="_blank">Listen</a>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+                <li>
+                    <a href="lyrics" target="_blank">Lyrics</a>
+                </li>
+            </ul>
+        </nav>
 
-    <section class="galleryContent" style="margin-bottom:25px">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-3 listen">
-                    <img class="img-fluid" id="title" src="css/images/gallery.png" alt="listen">
-                </div>
+        <div id="content">
+
+            <div class="row no-gutters banner">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                        </button>
+                    </div>
+                </nav>
             </div>
-            <div class="row gallery">
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/evGuitar.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/evGuitar.JPG" alt="photo of evanne" />
-                    </a>
+
+            <section class="galleryContent" style="margin-bottom:25px">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 listen">
+                            <img class="img-fluid" id="title" src="css/images/gallery.png" alt="listen">
+                        </div>
+                    </div>
+                    <div class="row gallery">
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/evGuitar.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/evGuitar.JPG" alt="photo of evanne" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/evanneSteve.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/evanneSteve.JPG" alt="photo of effie zilch" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/steveGuitar.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/steveGuitar.JPG" alt="photo of steve" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/jamming.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/jamming.JPG" alt="photo of jam session" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/evanne.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/evanne.JPG" alt="photo of evanne" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/youtubeStill.png" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/youtubeStill.png" alt="photo of jam session" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/cover.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/cover.JPG" alt="couch photo" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/AlbumCover.jpg" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/AlbumCover.jpg" alt="album art" />
+                            </a>
+                        </div>
+                        <div class="col-sm-4 my-auto photo">
+                            <a class="" href="css/images/star.JPG" data-lightbox="gallery">
+                                <img class="img-fluid thumbnail" src="css/images/star.JPG" alt="album art" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/evanneSteve.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/evanneSteve.JPG" alt="photo of effie zilch" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/steveGuitar.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/steveGuitar.JPG" alt="photo of steve" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/jamming.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/jamming.JPG" alt="photo of jam session" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/evanne.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/evanne.JPG" alt="photo of evanne" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/youtubeStill.png" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/youtubeStill.png" alt="photo of jam session" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/cover.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/cover.JPG" alt="couch photo" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/AlbumCover.jpg" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/AlbumCover.jpg" alt="album art" />
-                    </a>
-                </div>
-                <div class="col-sm-4 my-auto photo">
-                    <a class="" href="css/images/star.JPG" data-lightbox="gallery">
-                        <img class="img-fluid thumbnail" src="css/images/star.JPG" alt="album art" />
-                    </a>
-                </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
     <script src="js/lightbox-plus-jquery.js"></script>
     <script>
         lightbox.option({
@@ -113,6 +147,17 @@
             wrapAround: true
         });
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
 </body>
 
 </html>
