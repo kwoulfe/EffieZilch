@@ -28,6 +28,11 @@ a:hover, a:active, a:focus, a:visited {
     transition: all 0.3s;
 }
 
+p {
+  color: white;
+  font-family: 'Pavanam', sans-serif;
+}
+
 .hidden {
   display: none;
 }
