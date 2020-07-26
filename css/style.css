@@ -42,13 +42,14 @@ p {
 }
 
 .header {
-  background-image: url('images/duo.JPG');
+  background-image: url('images/duo-one.jpg');
+  /* background-image: url('images/duo.JPG'); */
   /* background-image: url('images/duo-flip2.JPG'); */
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
-  padding-top: 100%;
+  padding-top: 70%;
   /* padding-top: 52%; */
   /* background-attachment: fixed; */
   background-position: center top;
@@ -85,10 +86,10 @@ p {
   .social {
     font-size: 3em;
   }
-  .header {
+  /* .header {
     background-image: url('images/duo.JPG');
     padding-top: 100%
-  }
+  } */
 }
 
 #title {
